@@ -1,0 +1,258 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: K73_canny Bosch_DDU9 NXP_Cruise NXP_EBS RaceLogic AT_CannyDUO AT Eng
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ NewSignal_0004 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0005 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0006 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NewSignal_0105 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AT_Mode : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AT_Grunt : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2551255794 K73_status: 8 K73_canny
+ SG_ Page_pilot : 0|8@1+ (1,0) [0|0] "page" Vector__XXX
+ SG_ Page_mehanic : 8|8@1+ (1,0) [0|0] "page" Vector__XXX
+ SG_ Bright_pilot : 16|8@1+ (1,0) [0|0] "lev" Vector__XXX
+ SG_ Bright_mehanic : 24|8@1+ (1,0) [0|0] "lev" Vector__XXX
+ SG_ Reatarder_step : 32|8@1+ (1,0) [0|0] "lev" Vector__XXX
+ SG_ Retarder_stat : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ IGN_stat : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Stab_rear : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Stab_front : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rele_heat_glass : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rele_fuel_pump1 : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rele_fuel_pump2 : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Err_fuel_pump1 : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Err_fuel_pump2 : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lock_crnter_out : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Podkachka_FL : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Podkachka_FR : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Podkachka_RL : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Podkachka_RR : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EBS_lamp_yellow : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EBS_lamp_red : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lock_front_out : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lock_center_sensor : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Left_turn : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Right_turn : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lamp_beam : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fluid_level_lamp : 61|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Parking_lamp : 62|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Lock_rear_sensor : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566844706 NXP_CCVS1: 8 NXP_Cruise
+ SG_ DiffRatio : 8|16@1+ (0.0039063,0) [0|0] "" Vector__XXX
+ SG_ CCstatCAN : 24|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CCStopSign : 28|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CCStat : 30|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SportEn : 34|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrakeStat : 38|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CCSetSpeed : 47|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2566845512 NXP_TRBS: 8 NXP_Cruise
+ SG_ CurrentACC : 0|8@1+ (10,0) [0|150] "mA" Vector__XXX
+ SG_ CurrentProp : 8|8@1+ (10,0) [0|150] "mA" Vector__XXX
+ SG_ RE1 : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RE0 : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OLOFF1 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OLOFF0 : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OVC1 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OVC0 : 21|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CANerror : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2348810247 NXP_TSC1: 8 NXP_Cruise
+ SG_ EngCtrlMode : 0|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EngReqSpeed : 8|16@1+ (0.125,0) [0|0] "" Vector__XXX
+ SG_ EngReqTorque : 24|8@1+ (1,-125) [-125|125] "%" Vector__XXX
+
+BO_ 2381173299 DDU_meh_Press: 8 Bosch_DDU9
+ SG_ PressFL : 0|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+ SG_ PressFR : 8|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+ SG_ PressRL : 16|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+ SG_ PressRR : 24|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+ SG_ Press_I : 32|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+ SG_ Press_II : 40|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+ SG_ Press_III : 48|8@1+ (0.1,0) [0|0] "bar" Vector__XXX
+
+BO_ 1010 DDU_meh_ShockTemp: 8 Bosch_DDU9
+ SG_ ShockTempFL : 7|16@0+ (0.1,0) [0|0] "deg_C" Vector__XXX
+ SG_ ShockTempFR : 23|16@0+ (0.1,0) [0|0] "deg_C" Vector__XXX
+ SG_ ShockTempRL : 39|16@0+ (0.1,0) [0|0] "deg_C" Vector__XXX
+ SG_ ShockTempRR : 55|16@0+ (0.1,0) [0|0] "deg_C" Vector__XXX
+
+BO_ 2566847489 DDU_meh_Fuel: 8 Bosch_DDU9
+ SG_ Fuel_Tank1 : 0|16@1+ (1,0) [0|0] "L" Vector__XXX
+ SG_ Fuel_Tank2 : 16|16@1+ (1,0) [0|0] "L" Vector__XXX
+ SG_ Fuel_Tank3 : 32|16@1+ (1,0) [0|0] "L" Vector__XXX
+ SG_ T0 : 48|8@1+ (1,0) [0|0] "deg_C" Vector__XXX
+
+BO_ 2551255795 DDU_meh_SteerAngle: 8 Bosch_DDU9
+ SG_ SteerAngle : 24|16@1- (1,0) [0|0] "deg" Vector__XXX
+
+BO_ 2566827275 NXP_EBS_WTDG: 8 NXP_EBS
+ SG_ BrkApp_FR : 8|8@1+ (0.05,0) [0|12.5] "" Vector__XXX
+ SG_ WTDG_0x10 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BrkApp_Rear : 24|8@1+ (0.05,0) [0|12.5] "" Vector__XXX
+ SG_ WTDG_0x30 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ WTDG_Pedal : 47|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ WTDG_StepFR : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ WTDG_StepRR : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1009 DDU_meh_TempBreak: 8 Bosch_DDU9
+ SG_ TempFL : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ TempFR : 23|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ TempRL : 39|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ TempRR : 55|16@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566845511 NXP_RetErr: 8 NXP_Cruise
+ SG_ RetStatus : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RetTorque : 8|8@1+ (1,0) [0|0] "%" Vector__XXX
+ SG_ DiagCRC : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagRST : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagCPUV : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagCPW : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOVB : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagRE2 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagRE1 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagRE0 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagUV2 : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagUV1 : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagUV0 : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOT2 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOT1 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOT0 : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOLOFF2 : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOLOFF1 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOLOFF0 : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOLSB2 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOLSB1 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOLSB0 : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOVC2 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOVC1 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DiagOVC0 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FAULTN : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 771 RaceLogic: 8 RaceLogic
+ SG_ Stat_Rec : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566834704 AT_stat: 8 AT
+ SG_ Error_check : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566834688 Eng_check: 8 Eng
+ SG_ Eng_DM1_red : 4|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Eng_DM1_yellow : 6|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2566845521 AT_Canny7_DUO: 8 Vector__XXX
+ SG_ Drive : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Manual : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Natural : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reverse : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Sport : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_Plus : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_Minus : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Drive_Sport : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ UP : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Down : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Calib_UP : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Calib_DOWN : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+VAL_ 2551255794 Retarder_stat 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 IGN_stat 0 "ON" 1 "OFF" ;
+VAL_ 2551255794 Stab_rear 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Stab_front 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Rele_heat_glass 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Rele_fuel_pump1 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Rele_fuel_pump2 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Err_fuel_pump1 1 "error" 0 "ok" ;
+VAL_ 2551255794 Err_fuel_pump2 1 "error" 0 "ok" ;
+VAL_ 2551255794 Lock_crnter_out 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Podkachka_FL 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Podkachka_FR 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Podkachka_RL 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Podkachka_RR 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 EBS_lamp_yellow 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 EBS_lamp_red 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Lock_front_out 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Lock_center_sensor 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Left_turn 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Right_turn 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Lamp_beam 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Fluid_level_lamp 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Parking_lamp 1 "ON" 0 "OFF" ;
+VAL_ 2551255794 Lock_rear_sensor 1 "ON" 0 "OFF" ;
+VAL_ 2566844706 CCstatCAN 0 "OFF" 1 "ON" 2 "-" 3 "-" ;
+VAL_ 2566844706 CCStopSign 1 "ON" 0 "OFF" 2 "-" 3 "-" ;
+VAL_ 2566844706 CCStat 0 "OFF" 1 "ON" 2 "-" 3 "-" ;
+VAL_ 2566844706 SportEn 1 "ON" 0 "OFF" 2 "-" 3 "-" ;
+VAL_ 2566844706 BrakeStat 1 "ON" 0 "OFF" 2 "-" 3 "-" ;
+VAL_ 2566845512 RE1 1 "Err" 0 "Ok" ;
+VAL_ 2566845512 RE0 1 "Err" 0 "Ok" ;
+VAL_ 2566845512 OLOFF1 1 "Err" 0 "Ok" ;
+VAL_ 2566845512 OLOFF0 1 "Err" 0 "Ok" ;
+VAL_ 2566845512 OVC1 1 "Err" 0 "Ok" ;
+VAL_ 2566845512 OVC0 1 "Err" 0 "Ok" ;
+VAL_ 2566845512 CANerror 0 "Ok" ;
+VAL_ 2348810247 EngCtrlMode 1 "ON" 0 "OFF" 2 "-" 3 "-" ;
+VAL_ 2566845511 DiagCRC 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagRST 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagCPUV 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagCPW 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOVB 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagRE2 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagRE1 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagRE0 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagUV2 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagUV1 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagUV0 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOT2 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOT1 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOT0 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOLOFF2 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOLOFF1 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOLOFF0 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOLSB2 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOLSB1 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOLSB0 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOVC2 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOVC1 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 DiagOVC0 1 "Err" 0 "Ok" ;
+VAL_ 2566845511 FAULTN 1 "Err" 0 "Ok" ;
+VAL_ 771 Stat_Rec 0 "OFF" 1 "ON" ;
+
